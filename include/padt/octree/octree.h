@@ -37,9 +37,9 @@ class Octree {
       ConstSiblingsArrayT;
 
  public:
-  Octree(Eigen::AlignedBox3d domain, Eigen::Vector3i initialDiscretization) {}
   // To Do  Copy construction, etc...
 
+	
   Eigen::AlignedBox3d domain(const HandleT &h) const {
     return Eigen::AlignedBox3d();
   }
